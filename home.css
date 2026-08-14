@@ -393,3 +393,78 @@ footer{padding:46px 0 22px;background:#0b4f87}
 .copyright{margin-top:28px;padding-top:18px;color:#d3e2ed}
 .copyright img{width:108px}
 @media(max-width:767px){footer{padding:40px 0 20px}.footer-grid{gap:22px}.copyright{margin-top:24px}}
+
+/* Camada responsiva canônica — prevalece sobre regras históricas */
+html{min-width:320px}
+body{overflow-x:clip}
+h1,h2,h3,p,a,li{overflow-wrap:break-word}
+
+@media(max-width:767px){
+  :root{--pad:clamp(15px,5vw,20px);--mobile-header:70px;--segments-ticker-height:32px}
+  .header{height:var(--mobile-header)}
+  .nav-wrap{min-height:var(--mobile-header)}
+  .header .brand img{width:clamp(132px,42vw,158px);height:54px}
+  .menu-button{flex:0 0 46px;width:46px;height:46px}
+  .nav{top:var(--mobile-header);bottom:auto;max-height:calc(100dvh - var(--mobile-header) - 12px)}
+  .header.compact{height:60px}
+  .header.compact .nav{top:60px}
+  .hero{margin-top:var(--mobile-header);height:auto;min-height:calc(100svh - var(--mobile-header) - var(--segments-ticker-height));max-height:none;padding:0;background-size:auto 100%;background-position:70% center}
+  .hero-grid{height:auto;min-height:calc(100svh - var(--mobile-header) - var(--segments-ticker-height));padding-block:clamp(18px,4vh,34px)}
+  .hero-copy{width:100%;max-width:100%;padding:0}
+  .hero-copy:before{display:none}
+  .hero-copy h1{width:100%;margin:0 0 clamp(16px,3vh,24px);font-size:clamp(1.28rem,6.5vw,2rem);line-height:1.06}
+  .hero-line{white-space:nowrap}
+  .hero-cta{width:min(100%,390px);min-height:52px;margin:0;padding:6px 12px 6px 54px;font-size:clamp(.7rem,3.5vw,.84rem);white-space:nowrap}
+  .hero-cta span{width:40px;height:40px}
+  .hero-trust{display:grid;width:100%;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:clamp(12px,2.5vh,18px)}
+  .hero-trust li{min-width:0;font-size:clamp(.52rem,2.4vw,.64rem)}
+  .trust-icon{width:32px;height:32px;min-width:32px}
+  .segments-ticker{height:var(--segments-ticker-height)}
+  .section{width:100%;min-height:0!important;height:auto!important;padding-block:clamp(58px,15vw,82px)!important}
+  .section>.wrap{width:100%}
+  .center-title h2,.editorial-copy h2,.service-heading h2{max-width:100%}
+  .benefit-grid,.fine-list,.editorial-grid,.risk-bottom,.process-line,.footer-grid{grid-template-columns:minmax(0,1fr)!important}
+  .benefit-grid article,.fine-list article{width:100%}
+  .risk-shell{width:calc(100% - 12px);padding:24px 18px}
+  .fine-list strong{white-space:normal}
+  .diagnostic-photo{aspect-ratio:16/10;min-height:0!important}
+  .check-grid{grid-template-columns:1fr}
+  .services{min-height:0!important;padding-block:clamp(58px,15vw,82px)!important}
+  .service-heading{display:grid;gap:18px}
+  .service-card-group a{width:min(84vw,310px);flex-basis:min(84vw,310px)}
+  .process-line article{width:100%}
+  .book-visual{min-height:340px}
+  footer{margin-top:0}
+}
+
+@media(max-width:360px){
+  .hero-copy h1{font-size:1.16rem}
+  .hero-cta{padding-left:49px;font-size:.66rem}
+  .hero-trust li{font-size:.5rem}
+  .segments-ticker-group span{font-size:.68rem}
+}
+
+@media(min-width:768px) and (max-width:999px){
+  :root{--pad:28px;--segments-ticker-height:35px}
+  .hero{margin-top:82px;height:auto;min-height:calc(100svh - 82px - var(--segments-ticker-height));max-height:none;background-size:contain;background-position:center right}
+  .hero-grid{height:auto;min-height:calc(100svh - 82px - var(--segments-ticker-height));padding-block:28px}
+  .hero-copy{width:56%;max-width:56%}
+  .hero-copy h1{font-size:clamp(2rem,4.8vw,2.8rem)}
+  .hero-cta{width:100%;max-width:390px;font-size:.9rem}
+  .section{min-height:0;height:auto;padding-block:clamp(72px,9vw,96px)}
+  .benefit-grid article{min-height:260px;padding:22px}
+  .fine-list strong{font-size:clamp(1.1rem,2.2vw,1.45rem);white-space:normal}
+  .editorial-grid{gap:34px}
+  .diagnostic .editorial-grid{grid-template-columns:1fr}
+  .diagnostic-photo{aspect-ratio:16/9;min-height:0}
+  .process-line{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1.4fr 1fr 1fr}
+}
+
+@media(min-width:1000px) and (max-width:1240px){
+  :root{--pad:34px}
+  .nav{gap:16px;font-size:.76rem}
+  .hero-copy h1{font-size:clamp(2.5rem,4.2vw,3.35rem)}
+  .section{padding-block:clamp(54px,6vw,76px)}
+  .fine-list strong{font-size:clamp(1.2rem,1.65vw,1.65rem)}
+}
