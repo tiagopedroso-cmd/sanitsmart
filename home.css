@@ -383,3 +383,13 @@ body,main,section{max-width:100%}
   .trust-icon{width:29px;height:29px;min-width:29px}
   .hero-trust li{font-size:.53rem}
 }
+
+/* Rodapé mais claro, compacto e com maior contraste para as marcas */
+footer{padding:46px 0 22px;background:#0b4f87}
+.footer-logo{width:190px;margin-bottom:16px;padding:7px 10px;border-radius:14px;background:white}
+.footer-grid{gap:26px}
+.footer-grid p,.footer-grid a{color:#e2edf5}
+.footer-grid a{min-height:34px}
+.copyright{margin-top:28px;padding-top:18px;color:#d3e2ed}
+.copyright img{width:108px}
+@media(max-width:767px){footer{padding:40px 0 20px}.footer-grid{gap:22px}.copyright{margin-top:24px}}

@@ -3,3 +3,34 @@
 @media(min-width:1100px){:root{--pad:56px}.nav-toggle{display:none}.main-nav{position:static;opacity:1;visibility:visible;transform:none;padding:0;background:none;box-shadow:none}.main-nav ul{display:flex}.main-nav a{padding-inline:11px;font-size:.87rem}.nav-cta{display:inline-flex}.split{grid-template-columns:.85fr 1.15fr}.service-row{grid-template-columns:80px .75fr 1.25fr;align-items:start}.segment-grid{grid-template-columns:repeat(3,1fr)}.book-grid{grid-template-columns:repeat(3,1fr)}.footer-grid{grid-template-columns:2fr 1fr 1.4fr 1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
+/* Blocos transferidos da Home para a página Sobre */
+.about-showcase{padding-top:0}
+.about-showcase-shell,.monthly-showcase-shell{display:grid;gap:clamp(32px,5vw,64px);align-items:center;padding:clamp(30px,5vw,68px);border-radius:clamp(24px,4vw,36px);color:white}
+.about-showcase-shell{background:var(--deep)}
+.about-showcase-logo{min-height:clamp(280px,40vw,470px);display:grid;place-items:center;overflow:hidden;border-radius:28px;background:#e8f0ea}
+.about-showcase-logo img{width:90%}
+.about-showcase-shell p{max-width:65ch;color:#d4e0ea}
+.eyebrow.light{border-color:rgba(255,255,255,.35);color:white}
+.about-showcase-shell h2,.monthly-showcase-shell h2{margin:26px 0 22px}
+.sanit-smart{font:650 clamp(1.8rem,4vw,3rem)/1 var(--display);color:white!important}
+.sanit-smart span{color:var(--green2)}
+.monthly-showcase{padding-top:0}
+.monthly-showcase-shell{background:var(--green)}
+.monthly-showcase-shell p{color:#edf9ee}
+.monthly-pulse{font:700 clamp(1.15rem,2vw,1.5rem)/1.65 var(--display);color:white!important}
+.monthly-showcase-shell ul{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0;padding:0;list-style:none}
+.monthly-showcase-shell li{padding:14px;border:1px solid rgba(255,255,255,.35);border-radius:14px;font-weight:750}
+.monthly-showcase-shell h3{margin:30px 0 22px}
+@media(min-width:768px){.about-showcase-shell,.monthly-showcase-shell{grid-template-columns:1fr 1fr}}
+@media(max-width:767px){.about-showcase-shell,.monthly-showcase-shell{padding:28px 22px;border-radius:24px}.about-showcase-logo{min-height:260px;border-radius:20px}.monthly-showcase-shell ul{grid-template-columns:1fr}}
+
+/* Rodapé mais claro e mais curto em todas as páginas internas */
+footer{margin-top:clamp(48px,6vw,78px);padding:44px 0 22px;background:#0b4f87}
+.footer-grid{gap:26px}
+.footer-brand img{width:190px;margin-bottom:16px;padding:7px 10px;border-radius:14px;background:white}
+.footer-brand p,.footer-col a{color:#e2edf5}
+.footer-col a{min-height:34px}
+.credits{margin-top:28px;padding-top:18px;color:#d3e2ed}
+.made-by img{width:108px}
+@media(max-width:767px){footer{margin-top:46px;padding:38px 0 20px}.footer-grid{gap:22px}.credits{margin-top:24px}}
+
