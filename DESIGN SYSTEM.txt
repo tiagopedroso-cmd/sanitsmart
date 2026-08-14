@@ -1,0 +1,1385 @@
+# DESIGN SYSTEM — SANITSMART
+
+## 1. CONCEITO VISUAL
+
+O site da SanitSmart deve transmitir quatro características principais:
+
+**Técnico. Confiável. Organizado. Atual.**
+
+A referência estrutural apresentada possui uma estética editorial, limpa e sofisticada. Para a SanitSmart, essa linguagem será reinterpretada com uma aparência mais corporativa e tecnológica.
+
+A página deve ter bastante espaço em branco, grandes áreas de respiro, blocos arredondados, tipografia moderna e composições assimétricas.
+
+A sensação não deve ser de um site governamental, jurídico ou excessivamente burocrático.
+
+A SanitSmart deve parecer uma **consultoria especializada moderna**, capaz de transformar um assunto complexo em algo organizado e compreensível.
+
+---
+
+# 2. PALETA SANITSMART
+
+A identidade será construída principalmente a partir das cores presentes na marca.
+
+## AZUL INSTITUCIONAL
+
+**#073B75**
+
+Cor principal da marca.
+
+Utilização:
+
+* títulos importantes;
+* textos de destaque;
+* fundos institucionais;
+* footer;
+* navegação;
+* elementos gráficos;
+* cards de maior importância.
+
+---
+
+## AZUL PROFUNDO
+
+**#032B59**
+
+Para áreas que precisam de maior contraste.
+
+Utilização:
+
+* footer;
+* seções especiais;
+* cards escuros;
+* hover;
+* fundos institucionais;
+* seção sobre multas.
+
+---
+
+## AZUL SECUNDÁRIO
+
+**#0758A3**
+
+Inspirado nas áreas mais luminosas da marca.
+
+Utilização moderada:
+
+* detalhes;
+* gráficos;
+* ícones;
+* estados ativos;
+* pequenos elementos tecnológicos.
+
+---
+
+## VERDE SANITSMART
+
+**#19A82A**
+
+Segunda cor principal.
+
+Representa:
+
+**conformidade • aprovação • segurança • adequação**
+
+Utilização:
+
+* checks;
+* indicadores positivos;
+* detalhes;
+* ícones;
+* números;
+* links;
+* microelementos.
+
+Evitar grandes áreas totalmente verdes.
+
+---
+
+## VERDE CLARO
+
+**#42C43F**
+
+Uso pontual para iluminação, gradientes e pequenos destaques.
+
+---
+
+## BRANCO
+
+**#FFFFFF**
+
+Será a cor predominante do site.
+
+---
+
+## OFF-WHITE
+
+**#F6F8F7**
+
+Alternância de fundos entre seções.
+
+Evita que todo o site pareça uma grande superfície branca contínua.
+
+---
+
+## CINZA CLARO
+
+**#EDF1F3**
+
+Cards, FAQ e áreas secundárias.
+
+---
+
+## TEXTO
+
+**#20252B**
+
+Em vez de preto absoluto.
+
+Melhora a aparência editorial e mantém boa legibilidade.
+
+---
+
+# 3. GRADIENTE DA MARCA
+
+O gradiente deve aparecer de maneira muito controlada.
+
+### Principal
+
+**Azul → Verde**
+
+`#073B75 → #19A82A`
+
+Aplicações:
+
+* detalhes gráficos;
+* linhas;
+* pequenos ícones;
+* números;
+* hover;
+* elementos decorativos.
+
+Não transformar todos os botões em gradiente.
+
+O site deve continuar predominantemente sóbrio.
+
+---
+
+# 4. TIPOGRAFIA
+
+A referência utiliza uma tipografia geométrica, leve e extremamente limpa.
+
+Para a SanitSmart:
+
+## Títulos
+
+**Manrope**
+
+Alternativa:
+
+**Plus Jakarta Sans**
+
+Características:
+
+* moderna;
+* corporativa;
+* geométrica;
+* excelente legibilidade;
+* tecnológica sem parecer startup genérica.
+
+---
+
+## Textos
+
+**Inter**
+
+Utilização:
+
+* parágrafos;
+* menus;
+* formulários;
+* FAQ;
+* cards;
+* painel administrativo.
+
+---
+
+# 5. ESCALA TIPOGRÁFICA
+
+## H1
+
+Desktop:
+
+**64–72px**
+
+Mobile:
+
+**40–46px**
+
+Peso:
+
+**400 / 500**
+
+Não usar títulos extremamente pesados.
+
+---
+
+## H2
+
+Desktop:
+
+**48–56px**
+
+Mobile:
+
+**34–40px**
+
+---
+
+## H3
+
+**26–32px**
+
+---
+
+## Card title
+
+**22–26px**
+
+---
+
+## Texto
+
+Desktop:
+
+**17–18px**
+
+Mobile:
+
+**16px**
+
+Line-height generoso:
+
+**1.6**
+
+---
+
+## Labels
+
+**14–16px**
+
+---
+
+# 6. ÊNFASE TIPOGRÁFICA
+
+Uma característica forte da referência deve ser preservada.
+
+Misturar pesos dentro da própria frase.
+
+Exemplo:
+
+### Sua empresa preparada para atender às **exigências da Vigilância Sanitária.**
+
+Ou:
+
+### Conformidade sanitária não começa na fiscalização. **Começa antes.**
+
+O contraste deve vir principalmente do peso da fonte, e não de muitas cores.
+
+---
+
+# 7. GRID
+
+Container principal:
+
+**max-width: 1440px**
+
+Desktop:
+
+**padding lateral: 48–64px**
+
+Notebook:
+
+**32–48px**
+
+Tablet:
+
+**24–32px**
+
+Mobile:
+
+**20px**
+
+---
+
+# 8. ESPAÇAMENTO
+
+O site precisa respirar.
+
+Desktop:
+
+**120–160px entre grandes seções**
+
+Mobile:
+
+**72–96px**
+
+Espaçamento entre título e conteúdo:
+
+**32–48px**
+
+---
+
+# 9. BORDER RADIUS
+
+Uma característica importante da referência.
+
+## Grandes containers
+
+**32–40px**
+
+## Cards
+
+**20–28px**
+
+## Imagens
+
+**20–28px**
+
+## Botões
+
+**999px**
+
+Totalmente arredondados.
+
+---
+
+# 10. HEADER
+
+Inspirado diretamente no primeiro print.
+
+Container flutuante.
+
+Fundo:
+
+**#F6F8F7**
+
+Border-radius:
+
+**999px**
+
+Margem superior:
+
+**20–24px**
+
+Estrutura:
+
+**LOGO | Navegação | CTA**
+
+### Menu
+
+Início
+
+Sobre
+
+Serviços
+
+Segmentos
+
+E-books
+
+Contato
+
+### CTA
+
+**Falar com especialista ↗**
+
+Botão azul institucional.
+
+No hover:
+
+azul profundo.
+
+---
+
+# 11. HERO
+
+Manter a lógica estrutural da referência.
+
+Um grande container arredondado ocupando quase toda a largura.
+
+## Esquerda
+
+Eyebrow:
+
+**CONSULTORIA ESPECIALIZADA**
+
+Título:
+
+### Sua empresa preparada para atender às **exigências da Vigilância Sanitária.**
+
+Texto:
+
+Licenciamento, regularização e conformidade sanitária para empresas que querem operar com mais segurança, organização e previsibilidade.
+
+CTA:
+
+**Solicitar avaliação ↗**
+
+Microtexto:
+
+**Atendimento em Mairinque/SP e região**
+
+---
+
+## Direita
+
+Imagem profissional da responsável pela SanitSmart.
+
+A pessoa deve ocupar aproximadamente 40–45% do Hero.
+
+Fundo claro.
+
+---
+
+# 12. ELEMENTO GRÁFICO DA MARCA
+
+A referência utiliza formas abstratas gigantes no fundo.
+
+Para a SanitSmart, não copiar o símbolo da outra marca.
+
+Utilizar o próprio conceito visual do **S + órbita** da SanitSmart.
+
+O símbolo pode aparecer:
+
+* gigante;
+* parcialmente cortado;
+* com baixa opacidade;
+* atrás de pessoas;
+* atravessando containers;
+* como máscara de imagens.
+
+Opacidade aproximada:
+
+**4–8%**
+
+Isso fará o site parecer realmente pertencente à SanitSmart.
+
+---
+
+# 13. BOTÕES
+
+Seguir a construção visual da referência.
+
+Formato pill.
+
+Exemplo:
+
+**[ ↗ ] Falar com especialista**
+
+O ícone fica dentro de um círculo.
+
+### Primary
+
+Fundo:
+
+**#073B75**
+
+Texto:
+
+branco.
+
+Círculo:
+
+branco.
+
+Seta:
+
+azul.
+
+---
+
+### Secondary
+
+Fundo:
+
+branco.
+
+Borda:
+
+**1px solid #073B75**
+
+Texto:
+
+azul.
+
+---
+
+### WhatsApp
+
+Verde.
+
+Utilizado apenas para ações especificamente relacionadas ao WhatsApp.
+
+---
+
+# 14. TAGS / EYEBROWS
+
+Inspiradas nas pequenas cápsulas presentes na referência.
+
+Exemplos:
+
+`Nossos serviços:`
+
+`Sobre a SanitSmart:`
+
+`Diagnóstico sanitário:`
+
+`Conformidade:`
+
+`Conteúdos gratuitos:`
+
+Borda fina.
+
+Border-radius total.
+
+Padding:
+
+**10px 22px**
+
+---
+
+# 15. SEÇÃO — PROBLEMA
+
+Fundo branco.
+
+Layout aproximadamente:
+
+**40% título / 60% conteúdo**
+
+Tag:
+
+`Antes da fiscalização:`
+
+Título:
+
+### Conformidade sanitária **não começa na fiscalização.**
+
+Texto:
+
+Explicação sobre prevenção.
+
+À direita, composição visual relacionada aos pontos analisados.
+
+---
+
+# 16. SEÇÃO — PONTOS DE CONFORMIDADE
+
+Inspirada na composição de imagens/cards do segundo print.
+
+Grid:
+
+**3 × 2**
+
+Cards para:
+
+**Documentação e licenças**
+
+**Estrutura física**
+
+**POPs**
+
+**Manual de Boas Práticas**
+
+**Higiene e organização**
+
+**Gerenciamento de resíduos**
+
+Cada card:
+
+ícone minimalista + título + descrição curta.
+
+---
+
+# 17. SEÇÃO DE IMPACTO — MULTAS
+
+Essa deve ser uma das quebras visuais mais fortes da Home.
+
+Container:
+
+**azul profundo**
+
+Border-radius:
+
+**40px**
+
+Texto branco.
+
+Tag:
+
+`O custo da não conformidade:`
+
+Título:
+
+### Quanto pode custar **não estar preparado?**
+
+Abaixo:
+
+três cards horizontais.
+
+---
+
+### LEVE
+
+**R$ 2 mil**
+até
+**R$ 75 mil**
+
+---
+
+### GRAVE
+
+**R$ 75 mil**
+até
+**R$ 200 mil**
+
+---
+
+### GRAVÍSSIMA
+
+**R$ 200 mil**
+até
+**R$ 1,5 milhão**
+
+---
+
+Logo abaixo:
+
+### E o maior prejuízo pode não ser a multa.
+
+Apresentar:
+
+**Interdição**
+
+**Paralisação da operação**
+
+**Apreensão de produtos**
+
+**Adequações emergenciais**
+
+**Impacto financeiro**
+
+**Impacto reputacional**
+
+CTA:
+
+**Avaliar minha empresa ↗**
+
+Incluir discretamente a referência legal e a ressalva sobre enquadramento da infração.
+
+---
+
+# 18. SERVIÇOS
+
+Inspirado diretamente no terceiro print.
+
+## Lado esquerdo
+
+Tag:
+
+`Nossos serviços:`
+
+Título grande:
+
+### Conformidade sanitária **do diagnóstico à gestão contínua.**
+
+---
+
+## Lado direito
+
+Carrossel horizontal de cards.
+
+Cards grandes e minimalistas.
+
+### 01
+
+Diagnóstico de Conformidade
+
+### 02
+
+Viabilidade Regulatória
+
+### 03
+
+Licenciamento e Regularização
+
+### 04
+
+Implantação Documental
+
+### 05
+
+Preparação para Inspeção
+
+### 06
+
+Assessoria Mensal
+
+### 07
+
+Gestão Multiunidade
+
+### 08
+
+Compliance Sanitário
+
+---
+
+# 19. CARD DE SERVIÇO
+
+Fundo:
+
+**#F6F8F7**
+
+Ícone dentro de círculo branco.
+
+Título grande.
+
+Descrição curta.
+
+Número discreto:
+
+**01**
+
+No hover:
+
+leve elevação + linha verde + seta.
+
+Sem exagerar em sombras.
+
+---
+
+# 20. DIAGNÓSTICO SANITÁRIO
+
+O carro-chefe merece seção própria.
+
+Layout editorial assimétrico.
+
+### Esquerda
+
+Composição visual.
+
+Pode conter:
+
+checklist + fotografia + elementos da marca.
+
+### Direita
+
+Tag:
+
+`Por onde começar:`
+
+Título:
+
+### Descubra os riscos antes que eles se tornem um problema.
+
+Descrição.
+
+Checklist:
+
+✓ Visita técnica
+
+✓ Checklist de conformidade
+
+✓ Classificação de risco
+
+✓ Relatório técnico
+
+✓ Plano de ação priorizado
+
+CTA:
+
+**Solicitar diagnóstico ↗**
+
+---
+
+# 21. COMO FUNCIONA
+
+Grande container off-white.
+
+Título:
+
+### Um processo claro, **etapa por etapa.**
+
+Cards/números:
+
+**01 — Análise**
+
+**02 — Documentação**
+
+**03 — Preparação**
+
+**04 — Adequações**
+
+**05 — Acompanhamento**
+
+Usar números grandes em azul e pequenos detalhes verdes.
+
+---
+
+# 22. SOBRE A SANITSMART
+
+Inspirado diretamente no quarto print.
+
+## Esquerda
+
+Tag:
+
+`Sobre nós:`
+
+Texto institucional.
+
+Título:
+
+### Técnica para entender. **Estratégia para resolver.**
+
+Apresentação da consultora.
+
+CTA.
+
+## Direita
+
+Foto profissional grande.
+
+Border-radius 24–32px.
+
+Adicionar elementos circulares derivados da órbita da logo.
+
+Abaixo:
+
+duas imagens horizontais complementares.
+
+---
+
+# 23. SEGMENTOS
+
+Estrutura semelhante aos serviços.
+
+Cards:
+
+Clínicas
+
+Consultórios
+
+Estética
+
+Laboratórios
+
+Farmácias
+
+Alimentos
+
+Distribuidoras
+
+Indústrias
+
+Redes e franquias
+
+Hover:
+
+**Conhecer solução ↗**
+
+---
+
+# 24. PROVA SOCIAL
+
+Quando existirem depoimentos reais, utilizar a lógica visual do quinto print.
+
+Fundo:
+
+**#073B75**
+
+Título branco:
+
+### Empresas mais preparadas. **Gestores mais tranquilos.**
+
+Cards brancos grandes em movimento horizontal.
+
+Não publicar depoimentos fictícios.
+
+---
+
+# 25. E-BOOKS
+
+Visualmente, esta página deve parecer uma biblioteca profissional.
+
+Hero:
+
+### Conhecimento para transformar **exigências em decisões.**
+
+Grid:
+
+3 cards desktop.
+
+1 mobile.
+
+---
+
+# 26. CARD E-BOOK
+
+Capa ocupando aproximadamente 60% do card.
+
+Tag:
+
+`GUIA`
+
+Título.
+
+Descrição.
+
+Data.
+
+Botão:
+
+**Baixar gratuitamente ↗**
+
+Hover:
+
+capa sobe levemente.
+
+---
+
+# 27. PÁGINA INDIVIDUAL DO E-BOOK
+
+Layout:
+
+**45% capa / 55% conteúdo**
+
+Tag.
+
+Título.
+
+Descrição.
+
+Bullets:
+
+**O que você vai aprender**
+
+Formulário.
+
+Nome
+
+E-mail
+
+WhatsApp
+
+Empresa
+
+CTA:
+
+**Receber gratuitamente**
+
+---
+
+# 28. FAQ
+
+Inspirado diretamente no sexto print.
+
+Grande container:
+
+**#F6F8F7**
+
+Border-radius:
+
+**40px**
+
+Título:
+
+### Perguntas frequentes
+
+Grid de duas colunas.
+
+Accordion minimalista.
+
+Linha fina cinza.
+
+Pergunta.
+
+Símbolo:
+
+**+**
+
+Quando aberto:
+
+**−**
+
+Final:
+
+**Ainda tem dúvidas? Fale conosco pelo WhatsApp.**
+
+---
+
+# 29. CTA FINAL
+
+Inspirado no grande bloco colorido da referência.
+
+Container azul.
+
+Grandes cantos arredondados.
+
+Elemento gráfico SanitSmart gigante no fundo.
+
+Título:
+
+### Sua empresa estaria preparada **se a fiscalização fosse hoje?**
+
+Subtítulo:
+
+Descubra antecipadamente quais pontos precisam de atenção.
+
+Botão branco:
+
+**Solicitar avaliação ↗**
+
+---
+
+# 30. FOOTER
+
+Inspirado estruturalmente no último print de referência, mas completamente SanitSmart.
+
+Fundo:
+
+**#032B59**
+
+Elemento gigante da órbita/S ao fundo.
+
+### Coluna 1
+
+Logo branca SanitSmart.
+
+Consultoria especializada em Licenciamento Sanitário.
+
+Mairinque/SP.
+
+Instagram.
+
+---
+
+### Coluna 2
+
+**Navegação**
+
+Início
+
+Sobre
+
+Serviços
+
+Segmentos
+
+E-books
+
+Contato
+
+---
+
+### Coluna 3
+
+**Serviços**
+
+Diagnóstico
+
+Licenciamento
+
+Documentação
+
+Preparação para inspeção
+
+Assessoria Mensal
+
+Compliance
+
+---
+
+### Coluna 4
+
+**Contato**
+
+WhatsApp
+
+E-mail
+
+Instagram
+
+**Falar com especialista ↗**
+
+---
+
+Linha divisória.
+
+**Política de Privacidade**
+
+**Termos de Uso**
+
+**© SanitSmart — Todos os direitos reservados.**
+
+---
+
+# 31. FOTOGRAFIA
+
+As imagens não devem parecer banco de imagens genérico.
+
+Priorizar fotografias de:
+
+* responsável pela SanitSmart;
+* atendimento consultivo;
+* inspeção de ambientes;
+* análise de documentos;
+* checklists;
+* estabelecimentos reais;
+* reuniões com empresários;
+* visitas técnicas;
+* ambientes profissionais.
+
+Tratamento:
+
+**natural + corporativo + luminoso.**
+
+Evitar pessoas artificiais apontando para pranchetas ou cenas excessivamente posadas.
+
+---
+
+# 32. ÍCONES
+
+Estilo:
+
+**outline**
+
+Stroke:
+
+**1.5–2px**
+
+Cantos arredondados.
+
+Azul institucional.
+
+Pequenos detalhes verdes.
+
+Não utilizar ícones 3D.
+
+---
+
+# 33. SOMBRAS
+
+Muito discretas.
+
+Cards normais:
+
+praticamente sem sombra.
+
+Cards elevados:
+
+`0 12px 40px rgba(3, 43, 89, 0.08)`
+
+O volume deve vir mais de:
+
+**espaçamento + contraste + bordas + sobreposição**
+
+do que de sombras.
+
+---
+
+# 34. ANIMAÇÕES
+
+Movimentos elegantes e lentos.
+
+### Scroll reveal
+
+Opacity:
+
+0 → 1
+
+Translate Y:
+
+24px → 0
+
+### Cards
+
+Pequeno deslocamento vertical no hover.
+
+### Imagens
+
+Parallax muito leve.
+
+### Elementos da marca
+
+Órbita se movimentando lentamente conforme scroll.
+
+### Números
+
+Contagem animada na seção de impacto.
+
+Evitar animações excessivas.
+
+---
+
+# 35. RESPONSIVIDADE
+
+No mobile:
+
+Hero em uma coluna.
+
+Texto primeiro.
+
+Imagem depois.
+
+H1 aproximadamente 42px.
+
+Cards de serviços em swipe horizontal.
+
+Valores das multas empilhados.
+
+Sobre em coluna.
+
+FAQ em uma coluna.
+
+E-books em uma coluna.
+
+Menu transformado em drawer.
+
+CTA fixo de WhatsApp opcional.
+
+---
+
+# 36. PAINEL ADMINISTRATIVO
+
+O `/admin` deve usar a mesma identidade, porém de maneira mais funcional.
+
+Não replicar o layout editorial do site público.
+
+## Sidebar
+
+Logo SanitSmart
+
+Dashboard
+
+E-books
+
+Novo e-book
+
+Leads
+
+Configurações
+
+Sair
+
+---
+
+## Visual
+
+Fundo:
+
+**#F6F8F7**
+
+Sidebar:
+
+branca.
+
+Cor ativa:
+
+azul SanitSmart.
+
+Indicadores positivos:
+
+verde SanitSmart.
+
+Cards:
+
+brancos.
+
+Border-radius:
+
+**16px**
+
+Tipografia:
+
+Inter.
+
+---
+
+# 37. PRINCÍPIO VISUAL
+
+A regra para todo o projeto será:
+
+### 70% branco e neutros
+
+### 20% azul SanitSmart
+
+### 10% verde e elementos de destaque
+
+Isso impede que a combinação azul + verde fique visualmente agressiva.
+
+---
+
+# 38. PERSONALIDADE FINAL
+
+O resultado deve ficar entre:
+
+**Consultoria regulatória + empresa de tecnologia + escritório premium.**
+
+Não deve parecer:
+
+❌ site de órgão público
+
+❌ escritório jurídico tradicional
+
+❌ clínica médica
+
+❌ template de saúde
+
+❌ startup cheia de gradientes
+
+❌ site genérico criado por IA
+
+Deve transmitir:
+
+**✓ competência técnica**
+
+**✓ organização**
+
+**✓ prevenção**
+
+**✓ segurança**
+
+**✓ tecnologia**
+
+**✓ profissionalismo**
+
+**✓ clareza**
+
+---
+
+# DIREÇÃO CRIATIVA
+
+A referência fornece a **arquitetura visual**.
+
+A SanitSmart fornece a **identidade**.
+
+Portanto, devemos aproveitar da referência:
+
+**composição • espaços • grandes raios • cards • tipografia editorial • assimetria • imagens • CTAs • FAQ • footer • hierarquia**
+
+Sem copiar:
+
+**cores • símbolo • personalidade médica • textos • identidade visual**
+
+O resultado precisa parecer uma marca própria desde o primeiro segundo.
+
+## Conceito central
+
+### SanitSmart
+
+**Conformidade antes da fiscalização.**
+
+A estética deve reforçar exatamente essa ideia:
+
+**clareza para entender → método para organizar → segurança para operar.**
