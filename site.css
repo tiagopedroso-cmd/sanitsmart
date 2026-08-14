@@ -34,3 +34,126 @@ footer{margin-top:clamp(48px,6vw,78px);padding:44px 0 22px;background:#0b4f87}
 .made-by img{width:108px}
 @media(max-width:767px){footer{margin-top:46px;padding:38px 0 20px}.footer-grid{gap:22px}.credits{margin-top:24px}}
 
+/* Aplicação consolidada do Design System SanitSmart */
+html{overflow-x:clip}
+body{background:white;color:var(--text)}
+main,section{max-width:100%}
+.container,.split>*{min-width:0}
+.section{position:relative;padding-block:clamp(78px,9vw,138px)}
+.section.off{background:var(--off)}
+
+/* Header flutuante */
+.site-header{position:sticky;top:0;padding-top:14px}
+.nav-shell{min-height:76px;padding:8px 10px 8px 22px;border-color:rgba(7,59,117,.1);background:rgba(246,248,247,.94);box-shadow:0 12px 40px rgba(3,43,89,.08);backdrop-filter:blur(14px)}
+.brand img{width:158px;height:56px}
+.main-nav a{font-weight:600}
+.main-nav a[aria-current="page"]{color:var(--green);background:transparent}
+.nav-cta{min-height:52px}
+
+/* Hierarquia editorial */
+h1{font-size:clamp(2.6rem,5.4vw,4.5rem);font-weight:450;line-height:1.02;letter-spacing:-.045em}
+h2{font-size:clamp(2.1rem,4vw,3.5rem);font-weight:450;line-height:1.04;letter-spacing:-.04em}
+h3{font-size:clamp(1.35rem,2.2vw,1.9rem)}
+p{line-height:1.65}
+.eyebrow{min-height:42px;padding:8px 20px;border-color:rgba(7,59,117,.22);background:rgba(255,255,255,.42)}
+
+/* Botões pill */
+.btn{min-height:54px;padding:6px 7px 6px 22px;justify-content:space-between;box-shadow:0 8px 24px rgba(3,43,89,.08)}
+.btn:after{content:"➜";width:41px;height:41px;font-size:1.1rem;font-weight:900}
+.btn.primary{background:var(--blue)}
+.btn.primary:hover{background:var(--green);box-shadow:0 12px 30px rgba(25,168,42,.2)}
+.btn.secondary{border-color:rgba(7,59,117,.35)}
+
+/* Heróis das páginas internas */
+.page-hero{padding:18px 0 0}
+.page-hero-shell{min-height:clamp(480px,65svh,660px);padding:clamp(42px,7vw,92px);border:1px solid rgba(7,59,117,.07);border-radius:40px;background:linear-gradient(125deg,#fff 0 55%,#eef4f1 100%);box-shadow:0 12px 40px rgba(3,43,89,.05)}
+.page-hero-shell:after{content:"";position:absolute;z-index:-1;right:-7%;top:9%;width:min(48vw,620px);aspect-ratio:1;border:2px solid rgba(25,168,42,.13);border-radius:50%;box-shadow:0 0 0 60px rgba(7,88,163,.035),0 0 0 120px rgba(25,168,42,.025)}
+.page-hero h1{max-width:14ch;margin:28px 0 24px;color:var(--deep)}
+.page-hero p{max-width:58ch;color:var(--muted);font-size:clamp(1rem,1.25vw,1.15rem)}
+.page-hero-mark{right:-12%;bottom:-25%;width:min(65vw,700px);opacity:.055}
+
+/* Blocos e cards */
+.split{align-items:center}
+.copy h2{color:var(--deep)}
+.info-block{border:1px solid rgba(7,59,117,.06);background:var(--off);box-shadow:none}
+.info-block.dark{border-color:rgba(255,255,255,.12);background:var(--deep)}
+.value-list li{border:1px solid var(--line);background:white}
+.service-list{display:grid;gap:14px;margin-top:42px}
+.service-row{position:relative;padding:32px;border:1px solid var(--line);border-radius:24px;background:var(--off);transition:transform .3s cubic-bezier(.16,1,.3,1),border-color .3s ease,background .3s ease}
+.service-row:after{content:"↗";position:absolute;right:26px;top:26px;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:white;color:var(--blue);font-weight:850}
+.service-row:hover{transform:translateY(-5px);border-color:rgba(25,168,42,.45);background:#f1f7f2}
+.service-row .num{font-size:.9rem;letter-spacing:.08em}
+.service-row h2{padding-right:50px;color:var(--deep)}
+.segment-grid,.book-grid{gap:18px}
+.segment-card,.book-card{border:1px solid var(--line);border-radius:24px;background:var(--off);box-shadow:none}
+.segment-card{min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
+.segment-card:after{content:"Conhecer solução  ↗";margin-top:30px;color:var(--blue);font-size:.82rem;font-weight:800}
+.segment-card:hover,.book-card:hover{border-color:rgba(25,168,42,.48);box-shadow:0 12px 40px rgba(3,43,89,.08)}
+.book-card{padding:24px;background:white}
+.book-cover{border-radius:18px 26px 26px 18px;background:var(--blue);box-shadow:12px 14px 0 #dfe9e2}
+
+/* FAQ */
+.faq{padding-inline:clamp(22px,3vw,38px);border:1px solid var(--line);border-radius:20px;background:var(--off);margin-bottom:10px}
+.faq-q{min-height:76px;color:var(--deep);font-size:1rem}
+.faq-q span{display:grid;place-items:center;flex:0 0 36px;width:36px;height:36px;border-radius:50%;background:white;color:var(--green)}
+.faq-a p{max-width:78ch}
+
+/* Formulários e contato */
+.form{border:1px solid var(--line);border-radius:32px;background:var(--off);box-shadow:none}
+.field input,.field select,.field textarea{border-color:#cbd6dc;transition:border-color .2s ease,box-shadow .2s ease}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue2);box-shadow:0 0 0 4px rgba(7,88,163,.1);outline:0}
+.direct{border-radius:32px;background:var(--deep)}
+.direct a:hover{color:#8ce193}
+
+/* CTA final */
+.cta{min-height:430px;display:flex;flex-direction:column;justify-content:center;border-radius:38px;background:var(--blue)}
+.cta:before{content:"";position:absolute;z-index:-1;right:-12%;bottom:-55%;width:min(80vw,680px);aspect-ratio:1;border:2px solid rgba(255,255,255,.11);border-radius:50%;box-shadow:0 0 0 55px rgba(255,255,255,.035)}
+.cta h2{font-size:clamp(2.25rem,4.5vw,3.9rem)}
+
+/* Responsividade do design system */
+@media(min-width:768px) and (max-width:1099px){
+  :root{--pad:30px}
+  .page-hero-shell{min-height:540px}
+  .service-row{grid-template-columns:60px 1fr;gap:18px}
+  .service-row>p,.service-row>ul{grid-column:2}
+  .footer-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}
+}
+@media(max-width:767px){
+  :root{--pad:20px;--section:clamp(72px,18vw,92px)}
+  body{font-size:16px}
+  .section{padding-block:var(--section)}
+  .site-header{padding-top:8px}
+  .nav-shell{min-height:68px;padding:6px 8px 6px 14px}
+  .brand img{width:145px;height:50px}
+  .main-nav{inset:84px 12px auto;max-height:calc(100dvh - 96px);overflow-y:auto;padding:14px;border-radius:20px}
+  .main-nav a{min-height:48px}
+  .page-hero{padding-top:10px}
+  .page-hero-shell{min-height:500px;padding:36px 24px;border-radius:28px}
+  .page-hero-shell:after{right:-48%;top:25%;width:110vw}
+  .page-hero h1{font-size:clamp(2.35rem,11vw,3.05rem)}
+  .page-hero-mark{right:-42%;width:120vw}
+  .split,.contact-grid{grid-template-columns:1fr;gap:36px}
+  .btn{width:100%;max-width:100%;min-height:54px;text-align:left}
+  .service-list{gap:12px;margin-top:32px}
+  .service-row{padding:24px 20px;border-radius:20px}
+  .service-row:after{right:18px;top:18px;width:38px;height:38px}
+  .service-row h2{font-size:clamp(1.55rem,7vw,2rem)}
+  .segment-grid,.book-grid{grid-template-columns:1fr}
+  .segment-card{min-height:200px;padding:24px}
+  .book-card{padding:20px}
+  .faq{padding-inline:18px;border-radius:18px}
+  .faq-q{min-height:70px}
+  .form,.direct{padding:26px 20px;border-radius:24px}
+  .choices{grid-template-columns:1fr}
+  .cta{min-height:390px;padding:34px 24px;border-radius:28px}
+  .about-showcase-shell,.monthly-showcase-shell{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(max-width:380px){
+  :root{--pad:15px}
+  .brand img{width:130px}
+  .page-hero-shell{padding:32px 20px}
+  .page-hero h1{font-size:2.15rem}
+  .eyebrow{padding-inline:15px;font-size:.7rem}
+}
+
