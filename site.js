@@ -33,3 +33,22 @@ document.querySelectorAll('.services-segments .segment-card').forEach(card=>{
   });
   card.addEventListener('pointerleave',()=>card.style.setProperty('--rotation','0deg'));
 });
+
+const scrollMotionHeroes=document.querySelectorAll('.services-page .page-hero,.about-page .page-hero');
+if(scrollMotionHeroes.length&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  scrollMotionHeroes.forEach(hero=>hero.classList.add('scroll-motion-hero'));
+  let heroMotionFrame=0;
+  const updateHeroMotion=()=>{
+    heroMotionFrame=0;
+    scrollMotionHeroes.forEach(hero=>{
+      const rect=hero.getBoundingClientRect();
+      const progress=Math.max(0,Math.min(1,-rect.top/Math.max(rect.height,1)));
+      hero.style.setProperty('--hero-scroll',progress.toFixed(4));
+      hero.style.setProperty('--hero-bg-shift',`${(progress*24).toFixed(2)}px`);
+    });
+  };
+  const requestHeroMotion=()=>{if(!heroMotionFrame)heroMotionFrame=requestAnimationFrame(updateHeroMotion)};
+  addEventListener('scroll',requestHeroMotion,{passive:true});
+  addEventListener('resize',requestHeroMotion,{passive:true});
+  updateHeroMotion();
+}
