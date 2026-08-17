@@ -468,3 +468,9 @@ h1,h2,h3,p,a,li{overflow-wrap:break-word}
   .section{padding-block:clamp(54px,6vw,76px)}
   .fine-list strong{font-size:clamp(1.2rem,1.65vw,1.65rem)}
 }
+
+/* Fotografia da seção E-books e Conteúdos */
+.book-photo{min-height:0;aspect-ratio:1;overflow:hidden;background:var(--paper)}
+.book-photo>img{width:100%;height:100%;object-fit:cover;border-radius:inherit;transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.book-photo:hover>img{transform:scale(1.025)}
+@media(max-width:767px){.book-photo{width:100%;min-height:0;aspect-ratio:1}}

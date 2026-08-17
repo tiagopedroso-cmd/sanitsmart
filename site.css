@@ -228,3 +228,9 @@ h1,h2,h3,p,a,li,label{overflow-wrap:break-word}
   .footer-grid{grid-template-columns:1.6fr 1fr 1fr 1fr}
 }
 
+/* Sincronia final dos componentes com o design system da Home */
+.main-nav a,.footer-col a,.btn{transition:color .3s ease,background-color .3s ease,transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s ease}
+.btn:after{display:flex;align-items:center;justify-content:center;line-height:1;transform:translateY(-1px)}
+.page-hero-shell,.info-block,.service-row,.segment-card,.book-card,.form,.direct,.cta{isolation:isolate}
+@media(hover:hover){.main-nav a:hover{color:var(--green)}.btn:hover:after{transform:translateY(-1px) translateX(2px)}}
+
