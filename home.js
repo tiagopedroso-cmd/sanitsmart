@@ -1,4 +1,13 @@
 const menuButton=document.querySelector('.menu-button'),nav=document.querySelector('.nav');
+const sanitSmartWhatsapp='5511996105759';
+const sanitSmartWhatsappMessage='Olá, quero falar com a SanitSmart sobre a conformidade sanitária da minha empresa.';
+document.querySelectorAll('a[href^="https://wa.me/"]').forEach(link=>{
+  const url=new URL(link.href);
+  if(!url.pathname.replaceAll('/',''))url.pathname=`/${sanitSmartWhatsapp}`;
+  if(!url.searchParams.has('text'))url.searchParams.set('text',sanitSmartWhatsappMessage);
+  link.href=url.toString();
+  if(link.closest('footer')&&link.textContent.trim()==='WhatsApp')link.textContent='Falar pelo WhatsApp';
+});
 menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',open);menuButton.setAttribute('aria-label',open?'Fechar menu':'Abrir menu');menuButton.textContent=open?'×':'☰'});
 nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰'}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.setAttribute('aria-label','Abrir menu');menuButton.textContent='☰';menuButton.focus()}});
